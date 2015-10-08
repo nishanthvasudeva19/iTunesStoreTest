@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.richardsgroup.test.DetailsActivity" >
+
+    <TextView
+        android:id="@+id/textViewtrackName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="textViewtrackName" />
+
+    <TextView
+        android:id="@+id/textViewtrackCensoredName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewtrackName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="textViewtrackCensoredName" />
+
+    <TextView
+        android:id="@+id/textViewprimaryGenreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewtrackCensoredName"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="textViewprimaryGenreName" />
+
+    <TextView
+        android:id="@+id/textViewcollectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewprimaryGenreName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="textViewcollectionName" />
+
+    <TextView
+        android:id="@+id/textViewcollectionPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewcollectionName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="textViewcollectionPrice" />
+
+    <TextView
+        android:id="@+id/textViewtrackPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewcollectionPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="textViewtrackPrice" />
+
+</RelativeLayout>
